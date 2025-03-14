@@ -11,6 +11,8 @@
         <link href="index.html" rel="stylesheet" type="text/html">
     </head>
 <body>
+
+
     <h1>
         Star Pizza
     </h1>
@@ -20,14 +22,24 @@
         <li id="altList"><a href="Contact.html">Contact</a></li>
         <li id="altList"><a href="About_page.html">About</a></li>
     </ul>
-    <p>
-        Dear Customer!
-        We can deliver food for your lunch break if your order at least 2 hours 
-        before delivery.
+    <p id="promise">
+       change this text.
     </p>
-    <p>
-        Free delivery every day when buying for at least kr. 110,-.
+    <script>
+        let e = document.getElementById("promise");
+        fetch("the_promise.txt")
+        .then(o => o.text())
+        .then(t => e.innerHTML = t);
+    </script>
+    <p id="pepe">
+        change this.
     </p>
+    <script>
+        let ee = document.getElementById("pepe");
+        fetch("pepe.txt")
+        .then(o => o.text())
+        .then(t => ee.innerHTML = t);
+    </script>
     <footer>
         <p>        Opening hours                    </p>
         <p>        Monday, Tuesday     15.00 - 22.00</p>
