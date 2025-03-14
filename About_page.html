@@ -19,11 +19,17 @@
 </ul>
 
 
-    <p>
+    <p id="About">
         <b>
             At Star Pizza we use only quality ingredients and prepare the food
             under hygienic conditions. we also belive in slavery and enforce it in our resturaunt.
         </b>
     </p>
+    <script>
+        let e = document.getElementById("About");
+        fetch("About.txt")
+        .then(o => o.text())
+        .then(t => e.innerHTML = t);
+    </script>
 </body>
 </html>
