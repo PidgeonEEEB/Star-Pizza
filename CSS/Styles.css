@@ -18,7 +18,7 @@ img
 body
 {
     background-color:rgb(234, 212, 255);
-    background-image: url(/CSS_pizza/gradient.png);
+    background-image: url(/CSS/gradient.png);
     background-size:cover, contain;
 }
 p

@@ -26,7 +26,7 @@
 <p><a href="#pasta">pasta link</a></p>
 <p><a href="#water_menu">water menu link</a></p>
 <p id="pizza"><b>Pizza Menu</b></p>
-<ol>
+<ol id="Pizza-Menu">
     <li>
         Margarita
         <figure>
@@ -101,6 +101,18 @@
         </li>
 
 </ol>
+<script>
+    showTextFromServer("Star_pizza.json");
+    
+    asyncfunctionshowTextFromServer("Star_pizza.json")
+    {
+        let o = await fetch("Star_pizza.json");
+        let t = await o.text();
+        let e = document.getElementById("Pizza-Menu");
+        e.innerHTML= t;
+    }
+    </script>
+
 <p id="water_menu"><b>water Menu</b></p>
 <ol>
     <li>
