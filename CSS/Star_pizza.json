@@ -1,0 +1,52 @@
+{
+    "Pizza_menu": [
+        { 
+            "Pizza": "Margarita", 
+            "description" : "(Tomato, Cheese)",
+            "image": {
+                "small_image" : "images/margherita_small.jpg",
+                "big_image" : "images/margherita_big.jpg"
+            }
+        },
+        { 
+            "Pizza": "Hawaii", 
+            "description" : "(Tomato, Cheese, Ham, Pineapple)",
+            "image": {
+                "big_image" :"images/hawaiian_big.jpg",
+                "small_image" : "images/hawaiian_small.jpg"
+            }
+        },
+        {
+            "Pizza": "Supreme", 
+            "description" : "(Tomato, cheese, Ham, Pepperoni, Onions)",
+            "image": {
+                "big_image" :"images/supreme_big.jpg",
+                "small_image" : "images/supreme_small.jpg"
+            }
+        },
+        {
+            "Pizza": "Pepperoni", 
+            "description" : "(Tomato, Cheese, Pepperoni, Pineapple)",
+            "image": {
+                "big_image" :"images/pepperoni_big.jpg",
+                "small_image" : "images/pepperoni_small.jpg"
+            }
+        },
+        {
+            "Pizza": "Curry chicken", 
+            "description" : "(kurbie chimken)",
+            "image": {
+                "big_image" :"images/curry_chicken_big.jpg",
+                "small_image" : "images/curry_chicken_small.jpg"
+            }
+        },
+        {
+            "Pizza": "Veggie lover", 
+            "description" : "(vegeta)",
+            "image": {
+                "big_image" :"images/veggie_lovers_big.jpg.jpg",
+                "small_image" : "images/veggie_lovers_small.jpg"
+            }
+        }
+    ]
+}
