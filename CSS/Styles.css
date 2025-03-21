@@ -15,6 +15,13 @@ img
     border-right-color: rgb(100, 216, 216);
     border-left-color: rgb(100, 216, 216); 
 }
+.cartimg{
+    width: 2em;
+    height: 2em;
+    border:0.4em solid black;
+    background-color: white;
+    padding: 0.5em;
+}
 body
 {
     background-color:rgb(234, 212, 255);
@@ -34,6 +41,12 @@ p
     display:flex;
     margin:auto;
     margin-bottom: 1em;
+ 
+}   
+.price{
+    width:auto;
+    margin-top: 1em;
+    max-width: 10em;
 }
 
 ol
@@ -57,7 +70,7 @@ li
     padding-left:2em;
     margin-bottom: 1em;
 }
-#altList 
+.altList 
 {
     width:4em;
     list-style:none;
@@ -66,4 +79,22 @@ li
     padding-right:2em;
     
     
+}
+.navbar
+{
+    border: solid 2em pink;
+    margin:0px;
+}
+.hyperlinks{
+    display:inline;
+}
+
+.bigBar{
+    display: flex;
+    justify-content: center;
+    margin:0px;
+    padding-bottom: -3em;
+    .cart{
+        justify-content: right;
+    }
 }

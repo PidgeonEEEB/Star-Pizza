@@ -3,6 +3,7 @@
         { 
             "Pizza": "Margarita", 
             "description" : "(Tomato, Cheese)",
+            "price" : "18",
             "image": {
                 "small_image" : "images/margherita_small.jpg",
                 "big_image" : "images/margherita_big.jpg"
@@ -11,6 +12,7 @@
         { 
             "Pizza": "Hawaii", 
             "description" : "(Tomato, Cheese, Ham, Pineapple)",
+            "price" : "13",
             "image": {
                 "big_image" :"images/hawaiian_big.jpg",
                 "small_image" : "images/hawaiian_small.jpg"
@@ -19,6 +21,7 @@
         {
             "Pizza": "Supreme", 
             "description" : "(Tomato, cheese, Ham, Pepperoni, Onions)",
+            "price" : "2",
             "image": {
                 "big_image" :"images/supreme_big.jpg",
                 "small_image" : "images/supreme_small.jpg"
@@ -27,6 +30,7 @@
         {
             "Pizza": "Pepperoni", 
             "description" : "(Tomato, Cheese, Pepperoni, Pineapple)",
+            "price" : "1",
             "image": {
                 "big_image" :"images/pepperoni_big.jpg",
                 "small_image" : "images/pepperoni_small.jpg"
@@ -35,6 +39,7 @@
         {
             "Pizza": "Curry chicken", 
             "description" : "(kurbie chimken)",
+            "price" : "19",
             "image": {
                 "big_image" :"images/curry_chicken_big.jpg",
                 "small_image" : "images/curry_chicken_small.jpg"
@@ -43,6 +48,7 @@
         {
             "Pizza": "Veggie lover", 
             "description" : "(vegeta)",
+            "price" : "5",
             "image": {
                 "big_image" :"images/veggie_lovers_big.jpg.jpg",
                 "small_image" : "images/veggie_lovers_small.jpg"

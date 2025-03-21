@@ -17,10 +17,12 @@ function createPizza(Pizza_menu){
     <li>
         ${Pizza_menu.Pizza}
         <figure>
+            <p class="price">${Pizza_menu.price}</p>
             <a href=" ${Pizza_menu.image.big_image}" target="_blank" >
                 <img src="${Pizza_menu.image.small_image}" width="180" height="150" alt="${Pizza_menu.Pizza}" title="${Pizza_menu.Pizza}"> 
             </a>
             <figcaption>${Pizza_menu.description}</figcaption>
+            <button onclick="addToBasket(${data.Pizza_menu.price})" class="buy">BUY!!!</button>
         </figure>
     </li>`;
 }
@@ -32,4 +34,9 @@ function createManyPizzas(data)
     {
         Star_pizza.innerHTML += createPizza(data.Pizza_menu[i])
     }
+}
+
+function addToBasket(data)
+{
+    var basket =+ data.Pizza_menu.price;
 }

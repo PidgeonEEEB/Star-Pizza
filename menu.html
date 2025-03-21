@@ -5,40 +5,62 @@
         <title>Star Pizza</title>
         <meta charset="UTF-8">
         <link href="CSS/Styles.css" rel="stylesheet" type="text/css">
+
+        
         <link href="About_page.html" rel="stylesheet" type="text/html">
         <link href="Contact.html" rel="stylesheet" type="text/html">
         <link href="menu.html" rel="stylesheet" type="text/html">
         <link href="index.html" rel="stylesheet" type="text/html">
+        
     </head>
     
 <body>
-    <h1>
-        Menu
-    </h1>
+    <div class="navbar">
+        <h1>
+            Menu
+        </h1>
+        <div id="bigBar">
+            <ul class="hyperlinkmenu">
+                <li class="altList"><a href="index.html">Home</a></li>
+                <li class="altList"><a href="menu.html">Menu</a></li>
+                <li class="altList"><a href="Contact.html">Contact</a></li>
+                <li class="altList"><a href="About_page.html">About</a></li>
+            </ul>
+            <div class="cart">
+                <figure>
+                    <a href="images/shopping-cart.png">
+                        <img class="cartimg" src="images/shopping-cart.png" width="10px">
+                    </a>
+                </figure>
+                <div class="cartAmount">0</div>
+            </div>
+            
+        </div>
+
+    </div>
+    
     <ul>
-        <li id="altList"><a href="index.html">Home</a></li>
-        <li id="altList"><a href="menu.html">Menu</a></li>
-        <li id="altList"><a href="Contact.html">Contact</a></li>
-        <li id="altList"><a href="About_page.html">About</a></li>
+        <li class="hyperlinks"><a href="#pizza">pizza link</a></li>
+        <li class="hyperlinks"><a href="#pasta">pasta link</a></li>
+        <li class="hyperlinks"><a href="#water_menu">water menu link</a></li>
     </ul>
 
-<p><a href="#pizza">pizza link</a></p>
-<p><a href="#pasta">pasta link</a></p>
-<p><a href="#water_menu">water menu link</a></p>
-<p id="pizza"><b>Pizza Menu</b></p>
-<ol id="Pizza_Menu">
+    <p id="pizza"><b>Pizza Menu</b></p>
+    <ol id="Pizza_Menu">
     
 
     <li>Milano (Tomato, cheese, Ham, Mushrooms) </li>
 
         <li>
             Ranch Chicken
+            <p class="price">12 kr</p>
             <figure>
                 <a href="images/ranch_chicken_big.jpg" target="_blank">
                     <img src="images/ranch_chicken_small.jpg" width="150" height="180" alt="Pepperoni" title="Peepee"> 
                 </a>
                 <figcaption>(Rancid Chimken) </figcaption>
             </figure>
+            <button class="buy">BUY!!!</button>
 
         </li>
 
